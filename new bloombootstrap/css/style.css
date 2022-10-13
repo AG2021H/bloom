@@ -1,0 +1,129 @@
+
+/*
+color
+
+prem => #e7718b;
+secondary => #f4f4f6;
+background-color=> #000000;
+header =>  #26292e;
+footer => #26292e;
+search box => #444444; 
+download btn => #a3a5a4;
+learnBtn => #474546;
+letterColor => #ffe2f2;
+linebtw => #f8e3ea;
+main => #ffffff;
+*/
+
+/* 
+
+
+ */
+:root {
+--font-family: 'Butterfly Kids', cursive;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rounded-button {
+  border-radius: 50%;
+}
+.logo {
+  /* height: max-content; */
+  height: 45px;
+  font-family:var(--font-family);
+  color: white;
+  background-color:#26292e ;
+}
+
+.top-nav {
+  height: max-content;
+}
+
+header {
+  width: 100%;
+  background-color: #26292e;
+}
+
+
+.h1 {
+  font-family: 'Butterfly Kids', cursive;
+}
+.top-main {
+  background-color:#e7718b;
+  border-bottom: 10px;
+}
+
+.hero-section {
+  text-align: right;
+}
+
+
+.button {
+  margin: 5px;
+  padding: 5px;
+}
+
+.main-section {
+  background-color:#f4f4f6;
+  position: relative;
+  border-bottom: 2px solid #e7718b;
+}
+
+.h2 bottom-sec {
+  align-items:flex-end;
+
+}
+
+.comment {
+position: relative;
+}
+img {
+  aspect-ratio: 2/1;
+  text-align: center;
+  padding: 40px;
+  max-width: 100%;
+  height: auto;
+  float: right;
+  background-color: transparent;
+}
+
+
+.box {
+  aspect-ratio:2 / 1;
+  text-align: center;
+  margin: 5px;
+  padding: 20PX;
+  padding-top: 20px;
+  background-color: black;
+  width: calc(90% / 2);
+  border: solid 10px gray;
+  margin-bottom: 50px;
+  
+}
+
+
+.bi-search {
+  margin: 5px;
+  padding: 10px;
+  background-color: darkslategrey;
+  
+}
+
+
+.bottom-nav {
+  height: max-content;
+
+}
+
+footer {
+  width: 100%;
+  background-color: #26292e;
+  
+}
+
